@@ -3,6 +3,7 @@
 
 Evolution Editor is a standalone, rich text editor React component designed for easy integration into any React project. It supports both read-only and editable modes, JSON import/export, and theming via CSS variables.
 
+[Live Demo](https://evolution-editor-demo.vercel.app/)
 
 
 ## Table of Contents
