@@ -1,0 +1,79 @@
+.image-block-wrapper {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.image-block {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.image-block-input {
+  padding: 16px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  border: 2px dashed #ccc;
+}
+
+.image-url-input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.image-url-input:focus {
+  outline: none;
+  border-color: #4A90E2;
+}
+
+.image-block-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.image-block-btn {
+  padding: 6px 12px;
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.image-block-btn:hover {
+  background-color: #357ABD;
+}
+
+.image-edit-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 4px 8px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.image-block-wrapper:hover .image-edit-btn {
+  opacity: 1;
+}
+
+.image-error {
+  padding: 16px;
+  background-color: #fee;
+  color: #c00;
+  border-radius: 4px;
+  text-align: center;
+}

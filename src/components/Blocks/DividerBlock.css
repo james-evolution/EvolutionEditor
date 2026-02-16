@@ -1,0 +1,13 @@
+.divider-block-wrapper {
+  cursor: pointer;
+}
+
+.divider-block {
+  border: none;
+  border-top: 2px solid #ddd;
+  width: 100%;
+}
+
+.divider-block-wrapper:hover .divider-block {
+  border-top-color: #4A90E2;
+}

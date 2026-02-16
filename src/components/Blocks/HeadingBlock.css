@@ -1,0 +1,13 @@
+.heading-block {
+  outline: none;
+  font-weight: bold;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.heading-block:empty:before {
+  content: attr(data-placeholder);
+  color: #999;
+  font-weight: normal;
+  pointer-events: none;
+}

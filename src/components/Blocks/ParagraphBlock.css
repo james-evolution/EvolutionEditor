@@ -1,0 +1,12 @@
+.paragraph-block {
+  outline: none;
+  min-height: 1.5em;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.paragraph-block:empty:before {
+  content: attr(data-placeholder);
+  color: #999;
+  pointer-events: none;
+}

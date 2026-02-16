@@ -1,0 +1,23 @@
+.list-block {
+  list-style-position: inside;
+}
+
+.list-item {
+  margin-bottom: 4px;
+}
+
+.list-item-content {
+  display: inline;
+  outline: none;
+  word-wrap: break-word;
+}
+
+.list-item-content:focus {
+  background-color: #f0f8ff;
+}
+
+.list-item-content:empty:before {
+  content: 'List item...';
+  color: #999;
+  pointer-events: none;
+}
