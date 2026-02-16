@@ -81,12 +81,9 @@ import '@evolution-james/evolution-editor/dist/styles.css';
 
 ## Styling Guidelines
 
-### Parent Container CSS Classes
+### Parent Container CSS Class
 
-To constrain the size of your editor, I recommend wrapping it in a container element.
-For example, a <div> with the class .container
-You can then apply styling as you'd like. For example, if you wish to restrict its width to 80% of the viewport
-and it's height to 800 pixels, and you wish to center it, you could do this:
+To constrain the size of your editor, I recommend wrapping it in a container element, such as a ```<div>``` with the class ```.container``` You can then apply styling as you'd like. For example, if you wish to restrict its width to 80% of the viewport and it's height to 800 pixels, and you wish to center it, you could do this:
 
 ```css
 .container {
