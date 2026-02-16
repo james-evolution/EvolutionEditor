@@ -35,5 +35,9 @@
     "rollup": "^3.29.5",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/james-evolution/EvolutionEditor"
   }
 }
