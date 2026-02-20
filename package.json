@@ -1,6 +1,6 @@
 {
   "name": "@evolution-james/evolution-editor",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A modular, block-based rich text editor for React",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -21,7 +21,7 @@
     "name": "James Evolution (Evolution Coding Academy)",
     "url": "https://github.com/james-evolution"
   },
-  "license": "Custom",
+  "license": "SEE LICENSE.txt",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
@@ -38,6 +38,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/james-evolution/EvolutionEditor"
+    "url": "https://github.com/james-evolution/evolution-editor.git"
   }
 }
