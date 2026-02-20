@@ -1,6 +1,6 @@
 {
   "name": "@evolution-james/evolution-editor",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A modular, block-based rich text editor for React",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
